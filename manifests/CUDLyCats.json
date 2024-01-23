@@ -1,0 +1,1176 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "/config/manifest-templates/blank.json",
+  "type": "Manifest",
+  "behavior": [
+    "individuals"
+  ],
+  "label": {
+    "en": [
+      "CUDLy Cats"
+    ]
+  },
+  "navDate": "2024-01-23T00:00:00.000Z",
+  "items": [
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/cabd982e-4d5b-4b87-be79-3afe5b8fde55",
+      "type": "Canvas",
+      "height": 9707,
+      "width": 6371,
+      "label": {
+        "en": [
+          "Pwiddy Cat"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/cabd982e-4d5b-4b87-be79-3afe5b8fde55/annotation-page/6f70d76c-42a0-4eac-8142-532c0921dd20",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/9df6e23c-3b55-4ad8-8ada-c6d111a286bc",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/cabd982e-4d5b-4b87-be79-3afe5b8fde55",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00435.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9707,
+                "width": 6371,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00435.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 6371,
+                    "height": 9707,
+                    "sizes": [
+                      {
+                        "width": 99,
+                        "height": 151
+                      },
+                      {
+                        "width": 199,
+                        "height": 303
+                      },
+                      {
+                        "width": 398,
+                        "height": 606
+                      },
+                      {
+                        "width": 796,
+                        "height": 1213
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00435.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/af19c40d-9fd6-490b-901b-449511213df3",
+      "type": "Canvas",
+      "height": 8222,
+      "width": 5018,
+      "label": {
+        "en": [
+          "Nervous Cats"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/af19c40d-9fd6-490b-901b-449511213df3/annotation-page/e4d9a1be-2eae-48fd-8c62-e8138c717194",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/cb5e9ad2-c675-48aa-a3c5-9aa6b7c374c6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/af19c40d-9fd6-490b-901b-449511213df3",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/MS-KK-00004-00025-000-00136.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 8222,
+                "width": 5018,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/MS-KK-00004-00025-000-00136.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 5018,
+                    "height": 8222,
+                    "sizes": [
+                      {
+                        "width": 156,
+                        "height": 256
+                      },
+                      {
+                        "width": 313,
+                        "height": 513
+                      },
+                      {
+                        "width": 627,
+                        "height": 1027
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/MS-KK-00004-00025-000-00136.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/e3d917eb-eb33-4372-b2ad-99796c65180d",
+      "type": "Canvas",
+      "height": 5031,
+      "width": 3764,
+      "label": {
+        "en": [
+          "Sassy Cat"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/e3d917eb-eb33-4372-b2ad-99796c65180d/annotation-page/6074531e-fcd0-49f5-a6c9-be5f331ab5b8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/900d6fc3-f92a-4781-8bc2-3e1e6eab1d05",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/e3d917eb-eb33-4372-b2ad-99796c65180d",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/MS-ADD-09852-00001-00024-000-00158.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5031,
+                "width": 3764,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/MS-ADD-09852-00001-00024-000-00158.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3764,
+                    "height": 5031,
+                    "sizes": [
+                      {
+                        "width": 117,
+                        "height": 157
+                      },
+                      {
+                        "width": 235,
+                        "height": 314
+                      },
+                      {
+                        "width": 470,
+                        "height": 628
+                      },
+                      {
+                        "width": 941,
+                        "height": 1257
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/MS-ADD-09852-00001-00024-000-00158.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/30738702-f1bd-4448-b27a-65e3874bff84",
+      "type": "Canvas",
+      "height": 9213,
+      "width": 5590,
+      "label": {
+        "en": [
+          "Charlie's Cat"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/30738702-f1bd-4448-b27a-65e3874bff84/annotation-page/7890301a-412f-4aa3-a5e2-a3affe33c61a",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/6da248c9-e54a-403e-8a4d-a215dcfd5ebe",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/30738702-f1bd-4448-b27a-65e3874bff84",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/MS-DAR-00053-00002-000-00017.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9213,
+                "width": 5590,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/MS-DAR-00053-00002-000-00017.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 5590,
+                    "height": 9213,
+                    "sizes": [
+                      {
+                        "width": 87,
+                        "height": 143
+                      },
+                      {
+                        "width": 174,
+                        "height": 287
+                      },
+                      {
+                        "width": 349,
+                        "height": 575
+                      },
+                      {
+                        "width": 698,
+                        "height": 1151
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/MS-DAR-00053-00002-000-00017.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/2d26c0f8-64c7-46e2-b67e-5e873f3e5a5e",
+      "type": "Canvas",
+      "height": 6594,
+      "width": 5226,
+      "label": {
+        "en": [
+          "Cat in Chair by Window"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/2d26c0f8-64c7-46e2-b67e-5e873f3e5a5e/annotation-page/a03623aa-93c6-469a-ab33-07109bc2ee9d",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/5a26295a-aca1-4ce8-9ffa-bfeab6aaf661",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/2d26c0f8-64c7-46e2-b67e-5e873f3e5a5e",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/MS-KY-EDE-00001-00008-00002-00018-000-00001.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6594,
+                "width": 5226,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/MS-KY-EDE-00001-00008-00002-00018-000-00001.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 5226,
+                    "height": 6594,
+                    "sizes": [
+                      {
+                        "width": 163,
+                        "height": 206
+                      },
+                      {
+                        "width": 326,
+                        "height": 412
+                      },
+                      {
+                        "width": 653,
+                        "height": 824
+                      },
+                      {
+                        "width": 1306,
+                        "height": 1648
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/MS-KY-EDE-00001-00008-00002-00018-000-00001.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/34c20eca-8b1f-4677-bc9b-732e25deb38f",
+      "type": "Canvas",
+      "height": 6863,
+      "width": 3998,
+      "label": {
+        "en": [
+          "Al Fresco Cat"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/34c20eca-8b1f-4677-bc9b-732e25deb38f/annotation-page/f098de27-9e61-4c09-97bd-ef6af692ed01",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/a69c6928-4445-4782-8dab-7126ff9b00bb",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/34c20eca-8b1f-4677-bc9b-732e25deb38f",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/PH-CLASSICS-AJBW-00003-00050-082-00001.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6863,
+                "width": 3998,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/PH-CLASSICS-AJBW-00003-00050-082-00001.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3998,
+                    "height": 6863,
+                    "sizes": [
+                      {
+                        "width": 124,
+                        "height": 214
+                      },
+                      {
+                        "width": 249,
+                        "height": 428
+                      },
+                      {
+                        "width": 499,
+                        "height": 857
+                      },
+                      {
+                        "width": 999,
+                        "height": 1715
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/PH-CLASSICS-AJBW-00003-00050-082-00001.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/054ed295-98d2-4110-aec7-67596595251a",
+      "type": "Canvas",
+      "height": 5461,
+      "width": 8325,
+      "label": {
+        "en": [
+          "Lunchtime Cats"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/054ed295-98d2-4110-aec7-67596595251a/annotation-page/a9bb50fb-9341-490e-8505-14fdb47e32e0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/43a1500d-78bb-442d-a2b9-d21d50e5846e",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/054ed295-98d2-4110-aec7-67596595251a",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/PH-FOWDEN-00008-000-00025.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5461,
+                "width": 8325,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/PH-FOWDEN-00008-000-00025.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 8325,
+                    "height": 5461,
+                    "sizes": [
+                      {
+                        "width": 130,
+                        "height": 85
+                      },
+                      {
+                        "width": 260,
+                        "height": 170
+                      },
+                      {
+                        "width": 520,
+                        "height": 341
+                      },
+                      {
+                        "width": 1040,
+                        "height": 682
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/PH-FOWDEN-00008-000-00025.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/fcacf26c-3ec8-4f4f-9570-d97dd34347ec",
+      "type": "Canvas",
+      "height": 9707,
+      "width": 6371,
+      "label": {
+        "en": [
+          "Really Wild Cat"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/fcacf26c-3ec8-4f4f-9570-d97dd34347ec/annotation-page/e13908f3-3729-4eec-90d0-9a689667a163",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/c3a1b504-72aa-47d0-9532-bb56d9a3d79e",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/fcacf26c-3ec8-4f4f-9570-d97dd34347ec",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00436.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9707,
+                "width": 6371,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00436.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 6371,
+                    "height": 9707,
+                    "sizes": [
+                      {
+                        "width": 99,
+                        "height": 151
+                      },
+                      {
+                        "width": 199,
+                        "height": 303
+                      },
+                      {
+                        "width": 398,
+                        "height": 606
+                      },
+                      {
+                        "width": 796,
+                        "height": 1213
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/MS-NN-00003-00074-000-00436.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/443c61d2-e49d-4569-9e07-33798989cffa",
+      "type": "Canvas",
+      "height": 8573,
+      "width": 5258,
+      "label": {
+        "en": [
+          "The Cat that got the mouse"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/443c61d2-e49d-4569-9e07-33798989cffa/annotation-page/73d90dde-34f9-41a8-a6a9-9d0e57e8efc9",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/2c5dc616-ff81-4f31-91c6-fc0abe403720",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/443c61d2-e49d-4569-9e07-33798989cffa",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/MS-II-00004-00026-000-00071.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 8573,
+                "width": 5258,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/MS-II-00004-00026-000-00071.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 5258,
+                    "height": 8573,
+                    "sizes": [
+                      {
+                        "width": 82,
+                        "height": 133
+                      },
+                      {
+                        "width": 164,
+                        "height": 267
+                      },
+                      {
+                        "width": 328,
+                        "height": 535
+                      },
+                      {
+                        "width": 657,
+                        "height": 1071
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/MS-II-00004-00026-000-00071.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/c5c8fce8-2461-4e1b-b93b-c3db546ed596",
+      "type": "Canvas",
+      "height": 3966,
+      "width": 6779,
+      "label": {
+        "en": [
+          "Ghostly Cat"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Meet Tibby [a cat]. "
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/c5c8fce8-2461-4e1b-b93b-c3db546ed596/annotation-page/bbc360fc-c63d-4f06-89f2-1440e7107d32",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/93b7dd09-ac11-4015-b6b6-18b200e045e7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/c5c8fce8-2461-4e1b-b93b-c3db546ed596",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/PH-CLASSICS-AJBW-00003-00050-076-00001.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3966,
+                "width": 6779,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/PH-CLASSICS-AJBW-00003-00050-076-00001.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 6779,
+                    "height": 3966,
+                    "sizes": [
+                      {
+                        "width": 211,
+                        "height": 123
+                      },
+                      {
+                        "width": 423,
+                        "height": 247
+                      },
+                      {
+                        "width": 847,
+                        "height": 495
+                      },
+                      {
+                        "width": 1694,
+                        "height": 991
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/PH-CLASSICS-AJBW-00003-00050-076-00001.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/303f49b4-eebe-4e78-a8ca-ec971c099ee8",
+      "type": "Canvas",
+      "height": 9304,
+      "width": 7451,
+      "label": {
+        "en": [
+          "Where is the Cat?"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/303f49b4-eebe-4e78-a8ca-ec971c099ee8/annotation-page/2c2c0dd1-558e-4544-837e-9f6bc4bc5494",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/541d2b36-8f3c-4e41-aa3a-7bff0c3ae5da",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/303f49b4-eebe-4e78-a8ca-ec971c099ee8",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/PR-BROADSIDES-AA-00008-00023-000-00001.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 9304,
+                "width": 7451,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.lib.cam.ac.uk/iiif/PR-BROADSIDES-AA-00008-00023-000-00001.jp2",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7451,
+                    "height": 9304,
+                    "sizes": [
+                      {
+                        "width": 116,
+                        "height": 145
+                      },
+                      {
+                        "width": 232,
+                        "height": 290
+                      },
+                      {
+                        "width": 465,
+                        "height": 581
+                      },
+                      {
+                        "width": 931,
+                        "height": 1163
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray",
+                          "bitonal"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "regionSquare",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring"
+                        ],
+                        "maxWidth": 2000,
+                        "maxHeight": 2000
+                      }
+                    ],
+                    "id": "https://images.lib.cam.ac.uk/iiif/PR-BROADSIDES-AA-00008-00023-000-00001.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/fcf84ebb-d9de-42be-b704-a834a4d2d403",
+      "type": "Canvas",
+      "height": 630,
+      "width": 1200,
+      "label": {
+        "en": [
+          "There he is... Wait... That's a Lion!"
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/fcf84ebb-d9de-42be-b704-a834a4d2d403/annotation-page/83caee57-a91c-434b-b740-9fa6f09d521e",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/3cceba71-a176-406e-b3ba-94de20feb1ae",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/fcf84ebb-d9de-42be-b704-a834a4d2d403",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/PR-BROADSIDES-AA-00008-00023-000-00001.jp2/5200,2600,1700,1000/1200,630/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 630,
+                "width": 1200
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/config/manifest-templates/blank.json/canvas/d21867eb-8591-4f4d-a044-b89651f3982c",
+      "type": "Canvas",
+      "height": 630,
+      "width": 1200,
+      "label": {
+        "en": [
+          "Ok, ok, no need to go head over heels..."
+        ]
+      },
+      "items": [
+        {
+          "id": "/config/manifest-templates/blank.json/canvas/d21867eb-8591-4f4d-a044-b89651f3982c/annotation-page/3c7af63e-f5d4-47b7-814d-d7adefe2cb22",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "/config/manifest-templates/blank.json/annotation/7d507f4e-229d-4ed9-8b83-b96f572e8f4c",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "/config/manifest-templates/blank.json/canvas/d21867eb-8591-4f4d-a044-b89651f3982c",
+              "body": {
+                "id": "https://images.lib.cam.ac.uk/iiif/PR-BROADSIDES-AA-00008-00023-000-00001.jp2/5200,2600,1700,1000/1200,630/180/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 630,
+                "width": 1200
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
